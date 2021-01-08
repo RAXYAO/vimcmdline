@@ -12,10 +12,33 @@ silent function! LuaSourceLines(lines)
     else
       call VimCmdLineSendCmd('dofile("' . g:cmdline_tmp_dir . '/lines.lua")')
     endif
+
+    " if line =~ '^class ' || line =~ '^def '
+        " let lines = []
+        " let idx = line('.')
+        " while idx <= line('$')
+            " if line != ''
+                " let lines += [line]
+            " endif
+            " let idx += 1
+            " let line = getline(idx)
+            " if line =~ '^\S'
+                " break
+            " endif
+        " endwhile
+        " let lines += ['']
+        " call PythonSourceLines(lines)
+        " exe idx
+        " return
+    " endif
+    " if strlen(line) > 0 || b:cmdline_send_empty
+        " call VimCmdLineSendCmd(line)
+    " endif
+    " call VimCmdLineDown()
 endfunction
 
 let b:cmdline_nl = "\n"
-let b:cmdline_app = "lua"
+let b:cmdline_app = "/home/rax/Programs/ulua/lua"
 let b:cmdline_quit_cmd = "os.exit()"
 let b:cmdline_source_fun = function("LuaSourceLines")
 let b:cmdline_send_empty = 0

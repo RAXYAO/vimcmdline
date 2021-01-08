@@ -11,7 +11,7 @@ silent function! AMPLSourceLines(lines)
 endfunction
 
 let b:cmdline_nl = "\n"
-let b:cmdline_app = "ampl"
+let b:cmdline_app = "/home/rax/Programs/ampl-linux_x64/ampl"
 let b:cmdline_quit_cmd = "exit;"
 let b:cmdline_source_fun = function("AMPLSourceLines")
 let b:cmdline_send_empty = 0

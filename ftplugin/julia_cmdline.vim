@@ -8,10 +8,15 @@ function! JuliaSourceLines(lines)
     call VimCmdLineSendCmd('include("' . g:cmdline_tmp_dir . '/lines.jl")')
 endfunction
 
+function! JuliaSourceFile(filename)
+    call VimCmdLineSendCmd('include("' . a:filename . '")')
+endfunction
+
 let b:cmdline_nl = "\n"
 let b:cmdline_app = "julia"
 let b:cmdline_quit_cmd = "exit()"
 let b:cmdline_source_fun = function("JuliaSourceLines")
+let b:cmdline_source_file = function("JuliaSourceFile")
 let b:cmdline_send_empty = 0
 let b:cmdline_filetype = "julia"
 

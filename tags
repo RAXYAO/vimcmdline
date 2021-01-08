@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ClojureSourceLines	ftplugin/clojure_cmdline.vim	/^function! ClojureSourceLines(lines)$/;"	f
+GetTmuxActivePane	plugin/vimcmdline.vim	/^function GetTmuxActivePane()$/;"	f
+GoSourceLines	ftplugin/go_cmdline.vim	/^function! GoSourceLines(lines)$/;"	f
+HaskellSourceLines	ftplugin/haskell_cmdline.vim	/^function! HaskellSourceLines(lines)$/;"	f
+How to add support for a new language	README.md	/^## How to add support for a new language$/;"	i
+How to install	README.md	/^## How to install$/;"	i
+JavaScriptSourceLines	ftplugin/javascript_cmdline.vim	/^function! JavaScriptSourceLines(lines)$/;"	f
+JuliaSourceLines	ftplugin/julia_cmdline.vim	/^function! JuliaSourceLines(lines)$/;"	f
+JuliaSourceLines	ftplugin/r_cmdline.vim	/^function! JuliaSourceLines(lines)$/;"	f
+KdbSourceLines	ftplugin/kdb_cmdline.vim	/^function! KdbSourceLines(lines)$/;"	f
+KotlinSourceLines	ftplugin/kotlin_cmdline.vim	/^function! KotlinSourceLines(lines)$/;"	f
+LispSourceLines	ftplugin/lisp_cmdline.vim	/^function! LispSourceLines(lines)$/;"	f
+Macaulay2SourceLines	ftplugin/Macaulay2_cmdline.vim	/^function! Macaulay2SourceLines(lines)$/;"	f
+OctaveSourceLines	ftplugin/matlab_cmdline.vim	/^function! OctaveSourceLines(lines)$/;"	f
+Options	README.md	/^## Options$/;"	i
+PrologSourceLines	ftplugin/prolog_cmdline.vim	/^function! PrologSourceLines(lines)$/;"	f
+PythonSendLine	ftplugin/python_cmdline.vim	/^function! PythonSendLine()$/;"	f
+PythonSourceLines	ftplugin/python_cmdline.vim	/^function! PythonSourceLines(lines)$/;"	f
+RubySourceLines	ftplugin/ruby_cmdline.vim	/^function! RubySourceLines(lines)$/;"	f
+SageSourceLines	ftplugin/sage_cmdline.vim	/^function! SageSourceLines(lines)$/;"	f
+ScalaSourceLines	ftplugin/scala_cmdline.vim	/^function! ScalaSourceLines(lines)$/;"	f
+See also	README.md	/^## See also$/;"	i
+SetColor	syntax/cmdlineoutput.vim	/^function s:SetColor(cgroup, hicolor, cgui, c256, c16)$/;"	f
+ShellSourceLines	ftplugin/sh_cmdline.vim	/^function! ShellSourceLines(lines)$/;"	f
+SwiftSourceLines	ftplugin/swift_cmdline.vim	/^function! SwiftSourceLines(lines)$/;"	f
+Usage	README.md	/^## Usage$/;"	i
+VimCmdLineCreateMaps	plugin/vimcmdline.vim	/^function VimCmdLineCreateMaps()$/;"	f
+VimCmdLineDown	plugin/vimcmdline.vim	/^function VimCmdLineDown()$/;"	f
+VimCmdLineJobExit	plugin/vimcmdline.vim	/^function s:VimCmdLineJobExit(job_id, data, etype)$/;"	f
+VimCmdLineQuit	plugin/vimcmdline.vim	/^function VimCmdLineQuit(ftype)$/;"	f
+VimCmdLineSendCmd	plugin/vimcmdline.vim	/^function VimCmdLineSendCmd(...)$/;"	f
+VimCmdLineSendLine	plugin/vimcmdline.vim	/^function VimCmdLineSendLine()$/;"	f
+VimCmdLineSendLineAndStay	plugin/vimcmdline.vim	/^function VimCmdLineSendLineAndStay()$/;"	f
+VimCmdLineSendMBlock	plugin/vimcmdline.vim	/^function VimCmdLineSendMBlock()$/;"	f
+VimCmdLineSendParagraph	plugin/vimcmdline.vim	/^function VimCmdLineSendParagraph()$/;"	f
+VimCmdLineSendSelection	plugin/vimcmdline.vim	/^function VimCmdLineSendSelection()$/;"	f
+VimCmdLineSetApp	plugin/vimcmdline.vim	/^function VimCmdLineSetApp(ftype)$/;"	f
+VimCmdLineStartApp	plugin/vimcmdline.vim	/^function VimCmdLineStartApp()$/;"	f
+VimCmdLineStart_ExTerm	plugin/vimcmdline.vim	/^function VimCmdLineStart_ExTerm(app)$/;"	f
+VimCmdLineStart_Nvim	plugin/vimcmdline.vim	/^function VimCmdLineStart_Nvim(app)$/;"	f
+VimCmdLineStart_Tmux	plugin/vimcmdline.vim	/^function VimCmdLineStart_Tmux(app)$/;"	f
+b:cmdline_app	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_app = 'M2'$/;"	v
+b:cmdline_app	ftplugin/ampl_cmdline.vim	/^let b:cmdline_app = "\/home\/rax\/Programs\/ampl-linux_x64\/ampl"$/;"	v
+b:cmdline_app	ftplugin/clojure_cmdline.vim	/^let b:cmdline_app = "lein repl"$/;"	v
+b:cmdline_app	ftplugin/go_cmdline.vim	/^let b:cmdline_app = "gomacro"$/;"	v
+b:cmdline_app	ftplugin/haskell_cmdline.vim	/^    let b:cmdline_app = "ghci"$/;"	v
+b:cmdline_app	ftplugin/haskell_cmdline.vim	/^    let b:cmdline_app = "stack ghci"$/;"	v
+b:cmdline_app	ftplugin/javascript_cmdline.vim	/^let b:cmdline_app = "node"$/;"	v
+b:cmdline_app	ftplugin/julia_cmdline.vim	/^let b:cmdline_app = "julia"$/;"	v
+b:cmdline_app	ftplugin/kdb_cmdline.vim	/^let b:cmdline_app = "q"$/;"	v
+b:cmdline_app	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_app = "kotlinc-jvm"$/;"	v
+b:cmdline_app	ftplugin/lisp_cmdline.vim	/^let b:cmdline_app = "clisp"$/;"	v
+b:cmdline_app	ftplugin/lua_cmdline.vim	/^let b:cmdline_app = "\/home\/rax\/Programs\/ulua\/lua"$/;"	v
+b:cmdline_app	ftplugin/matlab_cmdline.vim	/^let b:cmdline_app = "octave"$/;"	v
+b:cmdline_app	ftplugin/prolog_cmdline.vim	/^let b:cmdline_app = "swipl"$/;"	v
+b:cmdline_app	ftplugin/python_cmdline.vim	/^    let b:cmdline_app = "python"$/;"	v
+b:cmdline_app	ftplugin/python_cmdline.vim	/^    let b:cmdline_app = "python3"$/;"	v
+b:cmdline_app	ftplugin/r_cmdline.vim	/^let b:cmdline_app = "R"$/;"	v
+b:cmdline_app	ftplugin/ruby_cmdline.vim	/^let b:cmdline_app = "irb"$/;"	v
+b:cmdline_app	ftplugin/sage_cmdline.vim	/^let b:cmdline_app = 'sage'$/;"	v
+b:cmdline_app	ftplugin/scala_cmdline.vim	/^let b:cmdline_app = "scala"$/;"	v
+b:cmdline_app	ftplugin/sh_cmdline.vim	/^let b:cmdline_app = "sh"$/;"	v
+b:cmdline_app	ftplugin/swift_cmdline.vim	/^let b:cmdline_app = "swift"$/;"	v
+b:cmdline_filetype	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_filetype = 'Macaulay2'$/;"	v
+b:cmdline_filetype	ftplugin/ampl_cmdline.vim	/^let b:cmdline_filetype = "ampl"$/;"	v
+b:cmdline_filetype	ftplugin/clojure_cmdline.vim	/^let b:cmdline_filetype = "clojure"$/;"	v
+b:cmdline_filetype	ftplugin/go_cmdline.vim	/^let b:cmdline_filetype = "go"$/;"	v
+b:cmdline_filetype	ftplugin/haskell_cmdline.vim	/^let b:cmdline_filetype = "haskell"$/;"	v
+b:cmdline_filetype	ftplugin/javascript_cmdline.vim	/^let b:cmdline_filetype = "javascript"$/;"	v
+b:cmdline_filetype	ftplugin/julia_cmdline.vim	/^let b:cmdline_filetype = "julia"$/;"	v
+b:cmdline_filetype	ftplugin/kdb_cmdline.vim	/^let b:cmdline_filetype = "kdb"$/;"	v
+b:cmdline_filetype	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_filetype = "kotlin"$/;"	v
+b:cmdline_filetype	ftplugin/lisp_cmdline.vim	/^let b:cmdline_filetype = "lisp"$/;"	v
+b:cmdline_filetype	ftplugin/lua_cmdline.vim	/^let b:cmdline_filetype = "lua"$/;"	v
+b:cmdline_filetype	ftplugin/matlab_cmdline.vim	/^let b:cmdline_filetype = "matlab"$/;"	v
+b:cmdline_filetype	ftplugin/prolog_cmdline.vim	/^let b:cmdline_filetype = "prolog"$/;"	v
+b:cmdline_filetype	ftplugin/python_cmdline.vim	/^let b:cmdline_filetype = "python"$/;"	v
+b:cmdline_filetype	ftplugin/r_cmdline.vim	/^let b:cmdline_filetype = "r"$/;"	v
+b:cmdline_filetype	ftplugin/ruby_cmdline.vim	/^let b:cmdline_filetype = "ruby"$/;"	v
+b:cmdline_filetype	ftplugin/sage_cmdline.vim	/^let b:cmdline_filetype = 'sage'$/;"	v
+b:cmdline_filetype	ftplugin/scala_cmdline.vim	/^let b:cmdline_filetype = "scala"$/;"	v
+b:cmdline_filetype	ftplugin/sh_cmdline.vim	/^let b:cmdline_filetype = "sh"$/;"	v
+b:cmdline_filetype	ftplugin/swift_cmdline.vim	/^let b:cmdline_filetype = "swift"$/;"	v
+b:cmdline_ipython	ftplugin/python_cmdline.vim	/^	        let b:cmdline_ipython = 1$/;"	v
+b:cmdline_jupyter	ftplugin/python_cmdline.vim	/^	        let b:cmdline_jupyter = 1$/;"	v
+b:cmdline_nl	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/ampl_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/clojure_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/go_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/haskell_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/javascript_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/julia_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/kdb_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/lisp_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/lua_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/matlab_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/prolog_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/python_cmdline.vim	/^    let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/python_cmdline.vim	/^    let b:cmdline_nl = "\\r\\n"$/;"	v
+b:cmdline_nl	ftplugin/r_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/ruby_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/sage_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/scala_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/sh_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_nl	ftplugin/swift_cmdline.vim	/^let b:cmdline_nl = "\\n"$/;"	v
+b:cmdline_quit_cmd	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_quit_cmd = 'exit'$/;"	v
+b:cmdline_quit_cmd	ftplugin/ampl_cmdline.vim	/^let b:cmdline_quit_cmd = "exit;"$/;"	v
+b:cmdline_quit_cmd	ftplugin/clojure_cmdline.vim	/^let b:cmdline_quit_cmd = "(quit)"$/;"	v
+b:cmdline_quit_cmd	ftplugin/go_cmdline.vim	/^let b:cmdline_quit_cmd = ":quit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/haskell_cmdline.vim	/^let b:cmdline_quit_cmd = ":quit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/javascript_cmdline.vim	/^let b:cmdline_quit_cmd = ".exit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/julia_cmdline.vim	/^let b:cmdline_quit_cmd = "exit()"$/;"	v
+b:cmdline_quit_cmd	ftplugin/kdb_cmdline.vim	/^let b:cmdline_quit_cmd = "\\\\\\\\"$/;"	v
+b:cmdline_quit_cmd	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_quit_cmd = ":quit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/lisp_cmdline.vim	/^let b:cmdline_quit_cmd = "(quit)"$/;"	v
+b:cmdline_quit_cmd	ftplugin/lua_cmdline.vim	/^let b:cmdline_quit_cmd = "os.exit()"$/;"	v
+b:cmdline_quit_cmd	ftplugin/matlab_cmdline.vim	/^let b:cmdline_quit_cmd = "exit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/prolog_cmdline.vim	/^let b:cmdline_quit_cmd = "halt."$/;"	v
+b:cmdline_quit_cmd	ftplugin/python_cmdline.vim	/^let b:cmdline_quit_cmd = "quit()"$/;"	v
+b:cmdline_quit_cmd	ftplugin/r_cmdline.vim	/^let b:cmdline_quit_cmd = "quit(save=\\"no\\")"$/;"	v
+b:cmdline_quit_cmd	ftplugin/ruby_cmdline.vim	/^let b:cmdline_quit_cmd = "quit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/sage_cmdline.vim	/^let b:cmdline_quit_cmd = 'exit'$/;"	v
+b:cmdline_quit_cmd	ftplugin/scala_cmdline.vim	/^let b:cmdline_quit_cmd = "sys.exit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/sh_cmdline.vim	/^let b:cmdline_quit_cmd = "exit"$/;"	v
+b:cmdline_quit_cmd	ftplugin/swift_cmdline.vim	/^let b:cmdline_quit_cmd = ":quit"$/;"	v
+b:cmdline_send	ftplugin/python_cmdline.vim	/^let b:cmdline_send = function('PythonSendLine')$/;"	v
+b:cmdline_send_empty	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/ampl_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/clojure_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/go_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/haskell_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/javascript_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/julia_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/kdb_cmdline.vim	/^let b:cmdline_send_empty = 1$/;"	v
+b:cmdline_send_empty	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_send_empty = 1$/;"	v
+b:cmdline_send_empty	ftplugin/lisp_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/lua_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/matlab_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/prolog_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/python_cmdline.vim	/^let b:cmdline_send_empty = 1$/;"	v
+b:cmdline_send_empty	ftplugin/r_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/ruby_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/sage_cmdline.vim	/^let b:cmdline_send_empty = 1$/;"	v
+b:cmdline_send_empty	ftplugin/scala_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/sh_cmdline.vim	/^let b:cmdline_send_empty = 0$/;"	v
+b:cmdline_send_empty	ftplugin/swift_cmdline.vim	/^let b:cmdline_send_empty = 1$/;"	v
+b:cmdline_source_fun	ftplugin/Macaulay2_cmdline.vim	/^let b:cmdline_source_fun = function('Macaulay2SourceLines')$/;"	v
+b:cmdline_source_fun	ftplugin/ampl_cmdline.vim	/^let b:cmdline_source_fun = function("AMPLSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/clojure_cmdline.vim	/^let b:cmdline_source_fun = function("ClojureSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/go_cmdline.vim	/^let b:cmdline_source_fun = function("GoSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/haskell_cmdline.vim	/^let b:cmdline_source_fun = function("HaskellSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/javascript_cmdline.vim	/^let b:cmdline_source_fun = function("JavaScriptSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/julia_cmdline.vim	/^let b:cmdline_source_fun = function("JuliaSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/kdb_cmdline.vim	/^let b:cmdline_source_fun = function("KdbSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/kotlin_cmdline.vim	/^let b:cmdline_source_fun = function("KotlinSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/lisp_cmdline.vim	/^let b:cmdline_source_fun = function("LispSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/lua_cmdline.vim	/^let b:cmdline_source_fun = function("LuaSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/matlab_cmdline.vim	/^let b:cmdline_source_fun = function("OctaveSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/prolog_cmdline.vim	/^let b:cmdline_source_fun = function("PrologSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/python_cmdline.vim	/^let b:cmdline_source_fun = function("PythonSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/r_cmdline.vim	/^let b:cmdline_source_fun = function("JuliaSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/ruby_cmdline.vim	/^let b:cmdline_source_fun = function("RubySourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/sage_cmdline.vim	/^let b:cmdline_source_fun = function('SageSourceLines')$/;"	v
+b:cmdline_source_fun	ftplugin/scala_cmdline.vim	/^let b:cmdline_source_fun = function("ScalaSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/sh_cmdline.vim	/^let b:cmdline_source_fun = function("ShellSourceLines")$/;"	v
+b:cmdline_source_fun	ftplugin/swift_cmdline.vim	/^let b:cmdline_source_fun = function("SwiftSourceLines")$/;"	v
+b:current_syntax	syntax/cmdlineoutput.vim	/^let   b:current_syntax = 'cmdline'$/;"	v
+b:syn_string_delimiter	syntax/cmdlineoutput_python.vim	/^let b:syn_string_delimiter = ['"', "'"]$/;"	v
+b:syn_string_delimiter	syntax/cmdlineoutput_python3.vim	/^let b:syn_string_delimiter = ['"', "'"]$/;"	v
+g:cmdline_auto_scroll	plugin/vimcmdline.vim	/^let g:cmdline_auto_scroll = get(g:, 'cmdline_auto_scroll', 1)$/;"	v
+g:cmdline_esc_term	plugin/vimcmdline.vim	/^let g:cmdline_esc_term = get(g:, 'cmdline_esc_term', 1)$/;"	v
+g:cmdline_in_buffer	plugin/vimcmdline.vim	/^    let g:cmdline_in_buffer = 0$/;"	v
+g:cmdline_in_buffer	plugin/vimcmdline.vim	/^    let g:cmdline_in_buffer = get(g:, 'cmdline_in_buffer', 1)$/;"	v
+g:cmdline_job	plugin/vimcmdline.vim	/^    let g:cmdline_job[s:ft] = 0$/;"	v
+g:cmdline_job	plugin/vimcmdline.vim	/^let g:cmdline_job = {}$/;"	v
+g:cmdline_map_quit	plugin/vimcmdline.vim	/^    let g:cmdline_map_quit = "<LocalLeader>q"$/;"	v
+g:cmdline_map_send	plugin/vimcmdline.vim	/^    let g:cmdline_map_send = "<Space>"$/;"	v
+g:cmdline_map_send_and_stay	plugin/vimcmdline.vim	/^    let g:cmdline_map_send_and_stay = "<LocalLeader><Space>"$/;"	v
+g:cmdline_map_send_block	plugin/vimcmdline.vim	/^    let g:cmdline_map_send_block = "<LocalLeader>b"$/;"	v
+g:cmdline_map_send_paragraph	plugin/vimcmdline.vim	/^    let g:cmdline_map_send_paragraph = "<LocalLeader>p"$/;"	v
+g:cmdline_map_source_fun	plugin/vimcmdline.vim	/^    let g:cmdline_map_source_fun = "<LocalLeader>f"$/;"	v
+g:cmdline_map_start	plugin/vimcmdline.vim	/^    let g:cmdline_map_start = "<LocalLeader>s"$/;"	v
+g:cmdline_outhl	plugin/vimcmdline.vim	/^let g:cmdline_outhl = get(g:, 'cmdline_outhl', 1)$/;"	v
+g:cmdline_term_height	plugin/vimcmdline.vim	/^let g:cmdline_term_height = get(g:, 'cmdline_term_height', 15)$/;"	v
+g:cmdline_term_width	plugin/vimcmdline.vim	/^let g:cmdline_term_width = get(g:, 'cmdline_term_width', 40)$/;"	v
+g:cmdline_termbuf	plugin/vimcmdline.vim	/^    let g:cmdline_termbuf[s:ft] = ''$/;"	v
+g:cmdline_termbuf	plugin/vimcmdline.vim	/^let g:cmdline_termbuf = {}$/;"	v
+g:cmdline_tmp_dir	plugin/vimcmdline.vim	/^let g:cmdline_tmp_dir = get(g:, 'cmdline_tmp_dir', '\/tmp\/cmdline_' . localtime() . '_' . $USER)$/;"	v
+g:cmdline_tmuxsname	plugin/vimcmdline.vim	/^    let g:cmdline_tmuxsname[s:ft] = ''$/;"	v
+g:cmdline_tmuxsname	plugin/vimcmdline.vim	/^let g:cmdline_tmuxsname = {}$/;"	v
+g:cmdline_vsplit	plugin/vimcmdline.vim	/^let g:cmdline_vsplit = get(g:, 'cmdline_vsplit', 0)$/;"	v
+g:did_cmdline	plugin/vimcmdline.vim	/^let g:did_cmdline = 1$/;"	v
+s:all_marks	plugin/vimcmdline.vim	/^let s:all_marks = "abcdefghijklmnopqrstuvwxyz"$/;"	v
+s:cmdline_app_pane	plugin/vimcmdline.vim	/^let s:cmdline_app_pane = ''$/;"	v
+s:ftlist	plugin/vimcmdline.vim	/^let s:ftlist = split(glob(expand('<sfile>:h:h') . '\/ftplugin\/*'))$/;"	v
+vimcmdline: Send lines to interpreter	README.md	/^# vimcmdline: Send lines to interpreter$/;"	h

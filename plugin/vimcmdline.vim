@@ -199,12 +199,19 @@ function VimCmdLineCreateMaps()
     exe 'vmap <silent><buffer> ' . g:cmdline_map_send .
                 \ ' <Esc>:call VimCmdLineSendSelection()<CR>'
     if exists("b:cmdline_source_fun")
+      if exists("b:cmdline_source_file")
         exe 'nmap <silent><buffer> ' . g:cmdline_map_source_fun .
-                    \ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
-        exe 'nmap <silent><buffer> ' . g:cmdline_map_send_paragraph .
-                    \ ' :call VimCmdLineSendParagraph()<CR>'
-        exe 'nmap <silent><buffer> ' . g:cmdline_map_send_block .
-                    \ ' :call VimCmdLineSendMBlock()<CR>'
+              "\ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
+              \ ' :call b:cmdline_source_file(expand("%:p"))<CR>'
+      else
+        exe 'nmap <silent><buffer> ' . g:cmdline_map_source_fun .
+              \ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
+      endif
+
+      exe 'nmap <silent><buffer> ' . g:cmdline_map_send_paragraph .
+            \ ' :call VimCmdLineSendParagraph()<CR>'
+      exe 'nmap <silent><buffer> ' . g:cmdline_map_send_block .
+            \ ' :call VimCmdLineSendMBlock()<CR>'
     endif
     if exists("b:cmdline_quit_cmd")
         exe 'nmap <silent><buffer> ' . g:cmdline_map_quit . ' :call VimCmdLineQuit("' . b:cmdline_filetype . '")<CR>'
