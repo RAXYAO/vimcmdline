@@ -4,8 +4,8 @@ if !exists("g:cmdline_job")
 endif
 
 function! JuliaSourceLines(lines)
-    call writefile(a:lines, g:cmdline_tmp_dir . "/lines.jl")
-    call VimCmdLineSendCmd('include("' . g:cmdline_tmp_dir . '/lines.jl")')
+    call writefile(a:lines, g:cmdline_tmp_dir . "_lines.jl")
+    call VimCmdLineSendCmd('include("' . g:cmdline_tmp_dir . '_lines.jl")')
 endfunction
 
 function! JuliaSourceFile(filename)
@@ -22,6 +22,6 @@ let b:cmdline_filetype = "julia"
 
 exe 'nmap <buffer><silent> ' . g:cmdline_map_start . ' :call VimCmdLineStartApp()<CR>'
 
-exe 'autocmd VimLeave * call delete(g:cmdline_tmp_dir . "/lines.jl")'
+exe 'autocmd VimLeave * call delete(g:cmdline_tmp_dir . "_lines.jl")'
 
 call VimCmdLineSetApp("julia")
