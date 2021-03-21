@@ -201,8 +201,8 @@ function VimCmdLineCreateMaps()
     if exists("b:cmdline_source_fun")
       if exists("b:cmdline_source_file")
         exe 'nmap <silent><buffer> ' . g:cmdline_map_source_fun .
-              "\ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
               \ ' :call b:cmdline_source_file(expand("%:p"))<CR>'
+              "\ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
       else
         exe 'nmap <silent><buffer> ' . g:cmdline_map_source_fun .
               \ ' :call b:cmdline_source_fun(getline(1, "$"))<CR>'
