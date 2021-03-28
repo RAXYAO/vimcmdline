@@ -33,7 +33,7 @@ let g:cmdline_esc_term = get(g:, 'cmdline_esc_term', 1)
 let g:cmdline_term_width = get(g:, 'cmdline_term_width', 40)
 let g:cmdline_term_height = get(g:, 'cmdline_term_height', 15)
 "let g:cmdline_tmp_dir = get(g:, 'cmdline_tmp_dir', '/tmp/cmdline_' . localtime() . '_' . $USER)
-let g:cmdline_tmp_dir = "./"
+let g:cmdline_tmp_dir = "."
 let g:cmdline_outhl = get(g:, 'cmdline_outhl', 1)
 let g:cmdline_auto_scroll = get(g:, 'cmdline_auto_scroll', 1)
 
