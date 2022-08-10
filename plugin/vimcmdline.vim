@@ -318,7 +318,8 @@ function VimCmdLineSendSelection()
         let line = strpart(l, i, j)
         call VimCmdLineSendCmd(line)
     elseif exists("b:cmdline_source_fun")
-        call b:cmdline_source_fun(getline("'<", "'>"))
+        let line = join(getline("'<", "'>"), "\n")
+        call VimCmdLineSendCmd(line)
     endif
 endfunction
 
